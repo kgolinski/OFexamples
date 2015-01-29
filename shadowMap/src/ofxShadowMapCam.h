@@ -16,9 +16,10 @@ public:
       zoomSpeed = 1;
       orbitSpeed = .2;
       panSpeed = 1;
-      ofAddListener(ofEvents.mousePressed, this, &ofxShadowMapCam::mousePressed);
-      ofAddListener(ofEvents.mouseReleased, this, &ofxShadowMapCam::mouseReleased);
-      ofAddListener(ofEvents.mouseDragged, this, &ofxShadowMapCam::mouseDragged);
+      //ofAddListener(ofEvents.mousePressed, this, &ofxShadowMapCam::mousePressed);
+      //ofAddListener(ofEvents.mouseReleased, this, &ofxShadowMapCam::mouseReleased);
+      //ofAddListener(ofEvents.mouseDragged, this, &ofxShadowMapCam::mouseDragged);
+      ofRegisterMouseEvents(this);
    }
    void setup(ofBaseApp* app, float dist) {
       position(ofGetWidth() / 2, ofGetHeight() / 2, dist);
@@ -78,9 +79,11 @@ public:
       pmouseX = x;
       pmouseY = y;
    }
-
    void mouseReleased(ofMouseEventArgs& event) {
       mouseHasMoved = false;
       mouseClicked = false;
    }
+    void mouseMoved(ofMouseEventArgs& event) {
+    }
+
 };

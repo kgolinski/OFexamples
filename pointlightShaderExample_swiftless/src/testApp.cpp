@@ -2,7 +2,7 @@
 http://www.kalwaltart.it e-mail: info@kalwaltart.it
 */ 
 #include "testApp.h"
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 
 void setupGlLight(){
 

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 
 class ofxShadowCamera{
 public:

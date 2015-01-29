@@ -1,7 +1,7 @@
 /*you can view the original code here http://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/lighting.php there is also a .zip example to download . Adapted to OpenFramework by Kalwalt 21/02/2012 http://www.kalwaltart.it e-mail: info@kalwaltart.it
 */
 #include "testApp.h"
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 
 //--------------------------------------------------------------
 void testApp::setup(){

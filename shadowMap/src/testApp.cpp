@@ -1,5 +1,5 @@
 #include "testApp.h"
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 
 
 //--------------------------------------------------------------

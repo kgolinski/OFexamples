@@ -14,7 +14,7 @@
 		<string>https://github.com/kgolinski/OFexamples.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>emptyExample copy 3/pointlightShaderExample_swiftless.xcodeproj</string>
+	<string>pointlightShaderExample_swiftless/pointlightShaderExample_swiftless.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8E13037BFAB3FA683C8A35CADD73CF786987E880</key>
